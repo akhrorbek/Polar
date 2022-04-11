@@ -492,3 +492,104 @@ img {
     flex-direction: row-reverse;
     text-align: right;
 }
+
+/*--------FEEDBACK SECTION---------*/
+.feeback-section {
+    padding-top: 50px;
+}
+
+.container-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adele-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.women-name {
+    margin-left: 11px;
+}
+
+.woman-name-header {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.woman-name-text {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.feedback-quote {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    width: 322px;
+    margin-top: 50px;
+}
+
+.feedback-quote::before {
+    content: "";
+    display: inline-block;
+    margin-right: 10px;
+    width: 11px;
+    height: 10px;
+    background-image: url("../images/left-q.png");
+
+}
+
+.feedback-quote::after {
+    content: "";
+    display: inline-block;
+    margin-left: 10px;
+    width: 11px;
+    height: 10px;
+    background-image: url("../images/right-q.png");
+}
+
+.feedback-client-picture {
+    display: flex;
+    align-items: center;
+    margin-top: 39px;
+}
+
+.client-picture+.client-picture {
+    margin-left: 25px;
+}
+
+.feedback-client-picture::before {
+    content: "";
+    display: inline-block;
+    margin-right: 20px;
+    width: 14px;
+    height: 14px;
+    background-image: url("../images/left-arrow.png");
+}
+
+.feedback-client-picture::after {
+    content: "";
+    display: inline-block;
+    margin-left: 20px;
+    width: 14px;
+    height: 14px;
+    background-image: url("../images/right-arrow.png");
+}
