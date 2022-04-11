@@ -593,3 +593,94 @@ img {
     height: 14px;
     background-image: url("../images/right-arrow.png");
 }
+
+/*---------MOBLE APLICATION-----*/
+.mobile-application-section {
+    background-color: rgba(242, 206, 218, 0.3);
+}
+
+.mobile-app-picture {
+    position: relative;
+    width: 305px;
+    height: 627px;
+    top: 75px;
+}
+
+.mobile-application-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.order-food {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 642px;
+}
+
+.order-header {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.order-paragraph {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #0F0101;
+    opacity: 0.7;
+    margin-bottom: 31px;
+}
+
+.order-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.order-item {
+    display: flex;
+    align-items: center;
+}
+
+.order-item+.order-item {
+    margin-top: 10px;
+}
+
+.order-item-image {
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.order-link {
+    text-decoration: none;
+}
+
+.order-link:hover {
+    opacity: 0.8;
+}
+
+.order-link:active {
+    opacity: 0.4;
+}
+
+.mobile-apps {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
