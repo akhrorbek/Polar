@@ -790,3 +790,168 @@ img {
 .question-submit:active {
     opacity: 0.4;
 }
+
+/*---------FOOTER--------*/
+
+.site-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0A0808;
+    ;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-logo-link {
+    text-decoration: none;
+}
+
+.footer-text {
+    margin: 0;
+    padding: 0;
+    width: 207px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+
+.footer-header {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.footer-icon-link {
+    text-decoration: none;
+}
+
+.footer-icon-link+.footer-icon-link {
+    margin-left: 5px;
+}
+
+.footer-icon-link:hover {
+    opacity: 0.8;
+}
+
+.footer-icon-link:active {
+    opacity: 0.4;
+}
+
+.footer-nav-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.footer-nav-link+.footer-nav-link {
+    margin-top: 8px;
+}
+
+.footer-nav-link:hover {
+    opacity: 0.8;
+}
+
+.footer-nav-link:active {
+    opacity: 0.4;
+}
+
+.footer-title {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 8px;
+}
+
+.footer-email {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    width: 398px;
+    border: 3px solid #D64374;
+    margin-bottom: 15px;
+}
+
+.email {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    background: #0A0808;
+    border: none;
+    width: 263px;
+    padding: 20px 160px 20px 32px;
+}
+
+.join-us {
+    margin: 0;
+    padding: 0;
+    background-color: #D64374;
+    color: #FFFFFF;
+    border: 6px solid #D64374;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    width: 125px;
+    padding: 16px 18px;
+    opacity: 1;
+}
+
+.join-us:hover {
+    opacity: 0.8;
+}
+
+.join-us:active {
+    opacity: 0.4;
+}
+
+.footer-payment-link {
+    text-decoration: none;
+}
+
+.footer-payment-link+.footer-payment-link {
+    margin-left: 10px;
+}
+
+.footer-payment-link:hover {
+    opacity: 0.8;
+}
+
+.footer-payment-link:active {
+    opacity: 0.4;
+}
+
+.footer-item:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+}
