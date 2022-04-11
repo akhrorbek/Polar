@@ -302,7 +302,8 @@ img {
     opacity: 0.6;
 }
 
-*-----BROWN SHUGAR SECTION----*/ .details-section {
+/*-----BROWN SHUGAR SECTION----*/
+.details-section {
     background-color: rgba(242, 206, 218, 0.3);
 }
 
@@ -357,4 +358,137 @@ img {
 
 .details-button:active {
     opacity: 0.4;
+}
+
+/*------OUR PRODUCT SECTION----*/
+.product-section {
+    padding-top: 137px;
+    padding-bottom: 50px;
+}
+
+.product-header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'HindMadurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    margin-bottom: 64px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 35px;
+
+
+}
+
+.product-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.product-item+.product-item {
+    margin-left: 40px;
+}
+
+.product-link-active {
+    font-weight: 700;
+    opacity: 1;
+}
+
+.product-link:hover {
+    border-bottom: 3px solid #D64374;
+    opacity: 0.8;
+}
+
+.product-link:active {
+    border-bottom: 3px solid #D64374;
+    opacity: 0.4;
+}
+
+.product-type-list {
+    list-style: none;
+}
+
+.product-type-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-item-text {
+    width: 434px;
+}
+
+.product-item-header {
+    margin: 0;
+    padding: 0;
+    font-family: 'HindMadurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.product-item-paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.product-newprice {
+    font-family: 'HindMadurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.product-oldprice {
+    font-family: 'HindMadurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.product-buy-link {
+    text-decoration: none;
+    font-family: 'HindMadurai';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    padding: 13px 50px;
+    background: #D23166;
+    border-radius: 5px;
+}
+
+.product-buying {
+    margin-top: 16px;
+}
+
+.product-type-item:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: right;
 }
