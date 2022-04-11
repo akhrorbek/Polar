@@ -301,3 +301,60 @@ img {
     text-align: center;
     opacity: 0.6;
 }
+
+*-----BROWN SHUGAR SECTION----*/ .details-section {
+    background-color: rgba(242, 206, 218, 0.3);
+}
+
+.more-details {
+    width: 442px;
+}
+
+.details-header {
+    margin: 0;
+    padding: 0;
+    width: 349px;
+    font-family: 'HindMadurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+    margin-bottom: 15px;
+}
+
+.details-text {
+    margin: 0;
+    padding: 0;
+    width: 442px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+    margin-bottom: 35px;
+}
+
+.details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details-button {
+    border: none;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    padding: 13px 50px;
+    background: #D23166;
+    border-radius: 5px;
+}
+
+.details-button:hover {
+    opacity: 0.8;
+}
+
+.details-button:active {
+    opacity: 0.4;
+}
