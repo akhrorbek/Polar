@@ -1,97 +1,115 @@
 @font-face {
     font-family: 'Roboto';
     src: url("../fonts/Roboto-Medium.ttf"),
-         url("../fonts/Roboto-Medium.woff"),
-         url("../fonts/Roboto-Medium.woff2");
+        url("../fonts/Roboto-Medium.woff"),
+        url("../fonts/Roboto-Medium.woff2");
     font-weight: 500;
 }
+
 @font-face {
     font-family: 'Roboto';
     src: url("../fonts/Roboto-Regular.ttf"),
-         url("../fonts/Roboto-Regular.woff"),
-         url("../fonts/Roboto-Regular.woff2");
+        url("../fonts/Roboto-Regular.woff"),
+        url("../fonts/Roboto-Regular.woff2");
     font-weight: 400;
 }
+
 @font-face {
     font-family: 'HindMadurai';
     src: url("../fonts/HindMadurai-Bold.ttf"),
-         url("../fonts/HindMadurai-Bold.woff"),
-         url("../fonts/HindMadurai-Bold.woff2");
+        url("../fonts/HindMadurai-Bold.woff"),
+        url("../fonts/HindMadurai-Bold.woff2");
     font-weight: 700;
 }
+
 @font-face {
     font-family: 'HindMadura';
     src: url("../fonts/HindMadurai-Medium.ttf"),
-         url("../fonts/HindMadurai-Medium.woff"),
-         url("../fonts/HindMadurai-Medium.woff2");
+        url("../fonts/HindMadurai-Medium.woff"),
+        url("../fonts/HindMadurai-Medium.woff2");
     font-weight: 500;
 }
+
 @font-face {
     font-family: 'HindMadurai';
     src: url("../fonts/HindMadurai-Regular.ttf"),
-         url("../fonts/HindMadurai-Regular.woff"),
-         url("../fonts/HindMadurai-Regular.woff2");
+        url("../fonts/HindMadurai-Regular.woff"),
+        url("../fonts/HindMadurai-Regular.woff2");
     font-weight: 400;
 }
+
 @font-face {
     font-family: 'HindMadurai';
     src: url("../fonts/HindMadurai-SemiBold.ttf"),
-         url("../fonts/HindMadurai-SemiBold.woff"),
-         url("../fonts/HindMadurai-SemiBold.woff2");
+        url("../fonts/HindMadurai-SemiBold.woff"),
+        url("../fonts/HindMadurai-SemiBold.woff2");
     font-weight: 600;
 }
+
 @font-face {
     font-family: 'Fredoka One';
     src: url("../fonts/FredokaOne-Regular.ttf"),
-         url("../fonts/FredokaOne-Regular.woff"),
-         url("../fonts/FredokaOne-Regular.woff2");
+        url("../fonts/FredokaOne-Regular.woff"),
+        url("../fonts/FredokaOne-Regular.woff2");
     font-weight: 400;
 }
+
 * {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
 }
+
 img {
     display: inline-block;
 }
+
 .container {
-    width:1165px;
+    width: 1165px;
     margin: 0 auto;
     padding: 0 20px;
 }
+
 /*--------HEADER---*/
 
 .site-header {
-background-color:rgba(242, 206, 218, 0.3);
+    background-color: rgba(242, 206, 218, 0.3);
 }
+
 .site-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .site-logo:hover {
-    opacity:0.8;
+    opacity: 0.8;
 }
+
 .site-logo:active {
     opacity: 0.4;
 }
+
 .site-logo-link {
     text-decoration: none;
 }
+
 .site-nav {
     display: flex;
     align-items: center;
 }
+
 .nav-list {
     display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
 .nav-link {
     text-decoration: none;
     font-size: 14px;
@@ -99,20 +117,25 @@ background-color:rgba(242, 206, 218, 0.3);
     color: #150101;
     opacity: 0.6;
 }
-.nav-item + .nav-item {
+
+.nav-item+.nav-item {
     margin-left: 40px;
 }
+
 .nav-link:hover {
-    opacity:0.8;
+    opacity: 0.8;
 }
+
 .nav-link:active {
     opacity: 0.4;
 }
+
 .nav-link-active {
     font-weight: 700;
-    color:rgba(210, 49, 102, 1);
-    opacity:1;
+    color: rgba(210, 49, 102, 1);
+    opacity: 1;
 }
+
 .site-buy-link {
     text-decoration: none;
     font-family: 'HindMadurai';
@@ -124,9 +147,96 @@ background-color:rgba(242, 206, 218, 0.3);
     background: #D23166;
     border-radius: 5px;
 }
-.site-buy-link:hover{
-    opacity:0.8;
+
+.site-buy-link:hover {
+    opacity: 0.8;
 }
+
 .site-buy-link:active {
-    opacity:0.4;
+    opacity: 0.4;
+}
+
+/*----HERO SECTION---*/
+
+.hero-section {
+    display: flex;
+    background-color: rgba(242, 206, 218, 0.3);
+    background-image: url("../images/background-image-hero.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 300px);
+    align-items: center;
+    height: 742px;
+
+
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    width: 665px;
+}
+
+.hero-top-paragraph {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+}
+
+.hero-header {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    opacity: 0.9;
+}
+
+.ice-cream {
+    color: rgba(210, 49, 102, 1);
+}
+
+.hero-bottom-paragraph {
+    width: 523px;
+    margin-bottom: 50px;
+    padding: 0;
+    font-family: 'HindMadurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+}
+
+.hero-buy-link {
+    text-decoration: none;
+    font-family: 'HindMadurai';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FAFAFA;
+    padding: 13px 50px;
+    background: #D23166;
+    border-radius: 5px;
+}
+
+.hero-buy-link:hover {
+    opacity: 0.8;
+}
+
+.hero-buy-link:active {
+    opacity: 0.4;
 }
