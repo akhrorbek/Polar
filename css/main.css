@@ -684,3 +684,109 @@ img {
     margin: 0;
     padding: 0;
 }
+
+/*---------SUPPORT-SECTION-----*/
+.support-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.support-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 637px;
+}
+
+.support-container {
+    display: flex;
+    justify-content: center;
+}
+
+.support-header {
+    margin: 0;
+    padding: 0;
+    width: 522px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.support-form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 36px;
+}
+
+.input-phone-number {
+    margin-right: 15px;
+    width: 303px;
+    padding: 29px 140px 29px 25px;
+    background: #FFFFFF;
+    border: 1px solid #FFA3A3;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+    opacity: 0.6;
+}
+
+.selection {
+    margin-left: 15px;
+    appearance: none;
+    background-image: url("../images/Polygon\ 1.svg");
+    background-repeat: no-repeat;
+    width: 303px;
+    padding: 29px 25px;
+    background-position: right 10px center;
+    border: 1px solid #FFA3A3;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+    opacity: 0.6;
+}
+
+.enter-question {
+    display: flex;
+    margin-top: 15px;
+    border: 0px solid #FFA3A3;
+    border-radius: 5px;
+
+}
+
+.type-question {
+    width: 503px;
+    padding: 29px 156px 29px 25px;
+    border: 1px solid #FFA3A3;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+    opacity: 0.6;
+}
+
+.question-submit {
+    width: 135px;
+    border: none;
+    padding: 28px;
+    background-color: #D64374;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.question-submit:hover {
+    opacity: 0.8;
+}
+
+.question-submit:active {
+    opacity: 0.4;
+}
